@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+}
+
+body {
+    background-color: rgb(98, 0, 255);
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+header {
+    color: rgb(0, 102, 255);
+    border: solid 2px #b30ec9;
+    padding: 10px;
+    font-size: 35px;
+}
+
+section {
+    background-color: rgba(36, 36, 36, 0.493);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-right: 20px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+
+h2 {
+    color: rgb(89, 0, 255);
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
